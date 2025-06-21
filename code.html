@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <!-- Floating Cart Button -->
+<div class="floating-cart">
+  🛍️
+  <span class="cart-count">2</span> <!-- Replace 2 with dynamic count later -->
+</div>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navMenu");
+    nav.classList.toggle("active");
+  }
+</script>
+<body>
+<nav class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="CoralCuties Logo">
+    <span>CoralCuties</span>
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <ul class="nav-links" id="navMenu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+    <header>
+    <h1>Cute Creations for Every Mood!🐚🌷</h1>
+  </div>
+</header>
+<section class="filter-bar">
+  <input type="text" placeholder="🔍 Search stickers..." class="search-input" />
+
+  <select class="category-select">
+    <option value="all">All Categories</option>
+    <option value="floral">🌸 Floral</option>
+    <option value="ocean">🐚 Ocean</option>
+    <option value="animals">🐻 Animals</option>
+    <option value="custom">✨ Custom</option>
+  </select>
+</section>
+    <main>
+        <section class="sticker-grid">
+            <!--each sticker cad-->
+            <div class="sticker-card">
+                <img src="jellyfish.png" alt="Jellyfish🪼"/>
+                <h3>Jellyfish🪼</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="shell.png" alt="Shell🐚"/>
+                <h3>Shell🐚</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="starfish.png" alt="Starfish🪸"/>
+                <h3>Starfish🪸</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="lilly.png" alt="Lily💮"/>
+                <h3>Lily💮</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="heart.png" alt="Disco Heart💖"/>
+                <h3>Heart💖</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="bow.png" alt="Coquette🎀"/>
+                <h3>Coquette🎀</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+            <div class="sticker-card">
+                <img src="pink starfish.png" alt="Starfish🪸"/>
+                <h3>Starfish🪸</h3>
+                <p>₹49</p>
+                <p class="rating">⭐⭐⭐⭐☆ (4.8)</p>
+                <button>Add to cart</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<footer>
+  <p class="tagline">🌷 Happy Shopping, Cutie! 🌊</p>
+
+  <div class="footer-links">
+    <a href="mailto:coralcuties@gmail.com" target="_blank">📧 Email</a>
+    <a href="https://instagram.com/" target="_blank">📸 Instagram</a>
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank">💬 WhatsApp</a>
+  </div>
+
+  <p class="copyright">© 2025 CoralCuties. Made with 💖 by Poorva</p>
+</footer>
